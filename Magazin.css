@@ -1,0 +1,18 @@
+@media screen and (max-width:768px){
+    .flex-container{
+        margin-bottom:800px;
+    }
+    .flex-card{
+        margin-bottom:90px;
+    }
+}
+@media screen and (max-width:600px){
+    .flex-container{
+        margin-bottom:102rem;
+        margin-left:136px;
+    }
+    .flex-card{
+        margin-bottom:90px;
+    }
+    
+}

@@ -1,0 +1,321 @@
+@media screen and (max-width: 1200px){
+    header {
+        padding: 0 20px 50px;
+        height: auto;
+    }}
+header {
+        background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(50,50,50,1) 100%);
+}
+body {
+    padding:0;
+    margin:0;
+}
+@media screen and (max-width: 1200px){
+    .back {
+        margin-top: 20px;
+}}
+.back {
+    position: absolute;
+    display: inline-block;
+    padding: 6px 12px;
+    background-color:  #add8e6;
+    color: black;
+    text-decoration: none;
+    border-radius: 0 50px 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 50px;
+    left: 0;
+    z-index: 100;
+}
+@media screen and (max-width: 1200px){
+    .header_flex {
+        height: unset;
+        padding: 0;
+        width: 100%;
+}}
+.header-flex {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+@media screen and (max-width: 1200px){
+    .header_flex_carte {
+        margin-top: unset;
+        margin: auto;
+        text-align: center;
+}}
+.header-flex-carte {
+        padding-top: 50px;
+        margin-right: 35px;
+}
+.header_flex_text {
+    text-align: center;
+    width: 500px;
+    color: white;
+}
+.header_flex_text h2 {
+    font-size: 34px;
+    color: #add8e6;
+    line-height: 38px;
+    font-weight: bold;
+}
+.header_flex_text p {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 15px auto;
+}
+@media screen and (max-width: 1200px){
+    .header_flex_text_cta {
+     text-align: center;
+     width: 100%;
+ }}
+ .header_flex_text_cta{
+    width: 400px;
+    margin: 40px auto 0;
+     text-align: center;
+    color: white;
+}
+.header_flex_text_cta_pret {
+    font-size: 26px;
+    font-weight: normal;
+    margin-top: 32px;
+    color: white;
+}
+.header_flex_text_cta_buton_a {
+    background: linear-gradient(to bottom, #dadfe7, #afc4ef, #8ba8f5, #7189f7, #6466f3);
+    color: black;
+    padding: 15px 30px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 500px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+@media screen and (max-width: 900px){
+    .descriere {
+        padding:20px;
+}}
+.descriere {
+    background: linear-gradient(to bottom, #dadfe7, #afc4ef, #8ba8f5, #7189f7, #6466f3);
+    padding: 50px 20px;
+}
+@media screen and (max-width: 900px){
+    .descriere h2 {
+        font-size: 30px;
+        padding-left: 0;
+}}
+.descriere h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 900px){
+    .volum-container {
+        flex-direction: column;
+        width: 100%;
+}}
+.volum-container {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+@media screen and (max-width: 900px){
+    .descriere_text {
+        padding-left: 0;
+}}
+.descriere_text {
+    margin: auto;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    padding-left: 30px;
+}
+@font-face {
+    font-family: Work Sans;
+    src: url(WorkSans-Italic-VariableFont_wght.ttf);
+}
+.font_2 {
+    font-family: 'Work Sans'
+}
+@media screen and (max-width: 900px){
+    .review-evidentiat {
+        padding: 40px 20px;
+}}
+.review-evidentiat {
+    padding: 100px 20px;
+    background-color: #0c0a09;
+}
+@media screen and (max-width: 900px){
+    .review-container {
+        width: 100%;
+}}
+.review-container {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+@media screen and (max-width: 900px){
+    .review-container p {
+        font-size: 20px;
+}}
+.review-container p {
+    font-size: 28px;
+    line-height: 36px;
+    color: #add8e6;
+    text-align: center;
+}
+@media screen and (max-width: 900px){
+    .fragment {
+        padding: 10px 20px;
+}}
+.fragment {
+    padding: 60px 20px;
+    background-color: white;
+    text-align: center;
+}
+.fragment h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+@media screen and (max-width: 900px){
+    .fragment-container {
+        width: 95%;
+        height: 350px;
+        overflow-y: scroll;
+}}
+.fragment-container {
+    width: 900px;
+    margin: 0 auto;
+    color: black;
+}
+.fragment-container p {
+    margin: auto;
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: left;
+}
+@media screen and (max-width: 900px){
+    .despre_autoare {
+        padding: 10px 20px 30px;
+}}
+.despre_autoare {
+    background-color: black;
+    padding: 10px 0 50px;
+}
+@media screen and (max-width: 900px){
+    .autoare-container {
+        width: 100%;
+}}
+.autoare-container {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+@media screen and (max-width: 900px){
+    .autoare-container h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+        padding-bottom: 0;
+}}
+.autoare-container h2 {
+    text-align: center;
+    color: #add8e6;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.despre_autoare_text {
+    line-height: 24px;
+    color: white;
+    text-align: left;
+    margin: auto;
+    font-size: 20px;
+}
+
+@media screen  and (max-width:768px){
+    .carteHeader {
+        width: 457px;
+        margin-top: 102px;
+    }
+    .header_flex_text h2 {
+        margin-right: 91px;
+        width: 330px;
+    }
+    .header_flex_text p {
+        width:329px;
+        margin-right:75px;
+    }
+    .header_flex_text_cta_pret {
+        margin-right:37px;
+    }
+    .header_flex_text_cta_buton{
+        margin-left:0px;
+    }
+    .review-container {
+        width: 726px;
+    }
+    .fragment-container {
+        width: 739px;
+    }
+    .parinteleNecula{
+        margin-right:134px;
+    }
+    .mihaiMorar{
+        margin-right:134px;
+    }
+}
+@media  screen and (max-width:600px) {
+    .header_flex_text h2 {
+        margin-left: -14px;
+        width: 274px;
+    }
+    .carteHeader {
+        height: 500px;
+        width: 400px;
+        margin-top: 102px;
+        margin-left: 111px;
+    }
+    .header_flex_text p {
+        width: 212px;
+        margin-right: 175px;
+    }
+    .header_flex_text_cta_pret {
+        margin-right: 134px;
+    }
+    .header_flex_text_cta_button {
+        margin-left: 20px;
+        width: 100px;
+    }
+    .review-container {
+        width: 550px;
+    }
+    .fragment-container {
+        width: 580px;
+    }
+    .autoare-container h2{
+        margin-right:200px;
+    }
+    .parinteleNecula {
+        margin-right: 282px;
+        width: 500px;
+    }
+    .mihaiMorar {
+        margin-right: 315px;
+        width: 550px;
+    
+}
+}

@@ -1,0 +1,10 @@
+@media screen and (max-width:768px){
+    .img-fluid{
+        margin-left:110px;
+    }
+}
+@media  screen and (max-width:600px) {
+    .img-fluid{
+        margin-left:0px;
+    }
+}

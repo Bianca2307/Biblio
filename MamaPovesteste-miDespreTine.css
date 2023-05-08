@@ -1,0 +1,403 @@
+@media screen and (max-width: 1200px){
+    header {
+        padding: 0 20px 50px;
+        height: auto;
+}}
+header {
+    background: linear-gradient(135deg, rgba(206,198,226,1) 0%,rgba(255,255,255,1) 100%);
+}
+body {
+    padding:0;
+    margin:0;
+
+}
+@media screen and (max-width: 1200px){
+    .back {
+        margin-top: 20px;
+}}
+.back {
+    position: absolute;
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 0 50px 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 50px;
+    left: 0;
+    z-index: 100;
+}
+@media screen and (max-width: 1200px){
+    .header_flex {
+        height: unset;
+        padding: 0;
+        width: 100%;
+}}
+.header-flex {
+    display: flex;
+    color:black;
+    align-items: center;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+@media screen and (max-width: 1200px){
+    .header_flex_carte {
+        margin-top: unset;
+        margin: auto;
+        text-align: center;
+}}
+.header-flex-carte {
+    padding-top: 50px;
+    margin-right: 40px;
+}
+.header_flex_text {
+    text-align: center;
+    width: 440px;
+    color:  #ebc95b;
+    padding-left:20px;
+}
+.header_flex_text h2 {
+    font-size: 24px;
+    color:  #ebc95b;
+    line-height: 38px;
+    font-weight: 300;
+}
+.header_flex_text p {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 15px auto;
+    font-weight: 300;
+}
+@font-face {
+    font-family: Frank Ruhl Libre;
+    src: url(FrankRuhlLibre-Black.ttf);
+}
+.font_1 {
+    font-family: 'Frank Ruhl Libre';
+}
+@font-face {
+    font-family: Work Sans;
+    src: url(WorkSans-Italic-VariableFont_wght.ttf);
+}
+.font_2 {
+    font-family: 'Work Sans'
+}
+@media screen and (max-width: 1200px){
+    .header_flex_text_cta {
+     text-align: center;
+     width: 100%;
+}}
+.header_flex_text_cta {
+    width: 400px;
+    margin: 40px auto 0;
+    text-align: center;
+    color: #ebc95b;
+}
+.header_flex_text_cta_pret {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 32px;
+    color: #ebc95b;
+}
+.header_flex_text_cta_buton_a {
+    background-color: #b4a8d1;
+    color: #e0c569;
+    padding: 15px 30px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 500px;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.review-evidentiat {
+    padding: 50px 20px;
+    background-color: white;
+}
+.review-container {
+    width: 700px;
+    margin: auto;
+    text-align: left;
+}
+.review-container p {
+    font-size: 25px;
+    line-height: 24px;
+    color: #ecc133;
+    text-align: left;
+}
+@media screen and (max-width: 1200px){
+    .ajuta {
+        padding: 20px;
+}}
+.ajuta {
+    padding: 40px 20px;
+    background:linear-gradient(135deg, rgba(206,198,226,1) 0%,rgba(255,255,255,1) 100%);
+
+    text-align: center;
+}
+.ajuta-titlu {
+    color: #b4a8d1;
+    font-size: 36px;
+    font-weight: 300;
+    border-bottom: 2px solid #b4a8d1;
+    padding-bottom: 20px;
+    width: 630px;
+    margin: auto;
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .ajuta_text {
+        width: 550px;
+ }}
+ @media screen and (max-width: 1200px){
+    .ajuta_text {
+        margin: 24px auto;
+}}
+.ajuta_text {
+    width: 700px;
+    margin: 40px auto;
+    color:  #9f93bd;
+    font-size: 20px;
+    font-weight: 300;
+}
+@media screen and (max-width: 1200px){
+    .ajuta-lista {
+        margin: unset;
+        padding-top: 10px;
+}}
+
+.ajuta-lista {
+        margin: 10px;
+        padding-top: 20px;
+        display: flex;
+        text-align: left;
+}
+.ajuta-lista p {
+        margin: unset;
+        padding: 0 0 10px 20px;
+}
+.descriere {
+    padding: 50px 20px;
+    background-color: white;
+}
+@media screen and (max-width: 900px){
+    .volum-container {
+        flex-direction: column;
+        width: 100%;
+}}
+.volum-container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+.descriere_text {
+    margin: auto;
+    font-size: 18px;
+    color: #ecc133;
+    text-align: left;
+    padding-left: 30px;
+    line-height: 24px;
+}
+.descriere_text h2 {
+    font-size: 40px;
+    font-weight: 300;
+    color:#ecc133;
+    text-align: left;
+    border-bottom: 2px solid #b4a8d1;
+    width: 320px;
+    margin: 30px auto;
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 900px){
+    .fragment {
+        padding: 10px 20px;
+}}
+.fragment {
+    padding: 60px 20px;
+    background:linear-gradient(135deg, rgba(206,198,226,1) 0%,rgba(255,255,255,1) 100%);
+    text-align: center;
+}
+.fragment h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #9f93bd;
+    text-align: center;
+}
+@media screen and (max-width: 900px){
+    .fragment-container {
+        width: 95%;
+        height: 350px;
+        overflow-y: scroll;
+}}
+.fragment-container {
+    width: 900px;
+    margin: 0 auto;
+    color: #9f93bd;
+}
+.fragment-container p {
+    margin: auto;
+    font-size: 25px;
+    padding: 10px 0;
+    text-align: left;
+}
+@media screen and (max-width: 900px){
+    .despre_autoare {
+        padding: 10px 20px 30px;
+}}
+.despre_autoare {
+    background-color: white;
+    padding: 50px 0 50px;
+}
+@media screen and (max-width: 900px){
+    .autoare-container {
+        width: 100%;
+}}
+.autoare-container {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+@media screen and (max-width: 900px){
+    .autoare-container h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+        padding-bottom: 0;
+}}
+.autoare-container h2 {
+    text-align: center;
+    color: #ecc133;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.despre_autoare_text {
+    line-height: 24px;
+    color: #ecc133;
+    text-align: left;
+    margin: auto;
+    font-size: 22px;
+}
+.citat {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.citat p {
+    font-size: 20px;
+    padding-right: 30px;
+    padding-top:30px;
+    color: #ecc133;
+}
+
+@media screen  and (max-width:768px){
+    .carteHeader {
+        width: 400px;
+        height: 550px;
+        margin-top: 102px;
+        margin-left: 84px;
+    }
+    .header_flex_text h2 {
+        margin-right: 91px;
+        width: 330px;
+    }
+    .header_flex_text p {
+        width:329px;
+        margin-right:88px;
+    }
+    .header_flex_text_cta_pret {
+        margin-right:37px;
+    }
+    .header_flex_text_cta_buton{
+        margin-left:-64px;
+    }
+    .review-container {
+        width: 726px;
+    }
+    .fragment-container {
+        width: 739px;
+    }
+    
+    hr {
+        margin-right:100px;
+    }
+    .carteDescriere{
+        margin-right:373px;
+}
+    .descriere_text h2{
+        margin-right:795px;
+    }
+    .descriere_text p{
+        width: 654px;
+        margin-right: 700px;
+    }
+    .despre_autoare_text {
+        width:600px;
+    }
+    .citat div{
+        margin-right:100px;
+    }
+    .autoare{
+        margin-right:142px;
+    }
+}
+@media screen  and (max-width:600px){
+    .carteHeader {
+        width: 400px;
+        height: 550px;
+        margin-top: 102px;
+        margin-left: 257px;
+    }
+    .header_flex_text h2 {
+        margin-right: 91px;
+        width: 161px;
+    }
+    .header_flex_text p {
+        width: 179px;
+        margin-right: 260px;
+    }
+    hr {
+        margin-right: 268px;
+        width: 174px;
+    }
+    .header_flex_text_cta_pret {
+        margin-right: 263px;
+    }
+    .header_flex_text_cta_buton {
+        margin-left: -281px;
+    }
+    .review-container {
+        width: 573px;
+    }
+    .ajuta h2{
+        width:500px;
+    }
+    .ajuta p{
+        width:500px;
+    }
+    .carteDescriere {
+        margin-right: 583px;
+    }
+    .descriere_text h2 {
+        margin-right: 800px;
+    }
+    .descriere_text p {
+        width: 539px;
+        margin-right: 700px;
+    }
+    .fragment-container {
+        width: 559px;
+    }
+    .autoare-container {
+        width: 612px;
+        margin: auto;
+        text-align: center;
+    }
+}

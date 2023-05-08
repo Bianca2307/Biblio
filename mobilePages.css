@@ -1,0 +1,75 @@
+@media screen and (max-width:768px){
+    .imageMobile{
+        width:400px;
+        height:560px;
+    }
+    .secondImagesMobile{
+        width:200px;
+        height:170px;
+    }
+    .laRascruceImage{
+        width:200px;
+        height:230px;
+    }
+   
+    .container {
+        max-width:458px;
+        
+    }
+    .thumbnail:hover {
+        position:relative;
+        top:-25px;
+        right:-50px;
+        width:250px;
+        height:auto;
+        display:block;
+        z-index:999;
+        
+    }
+    .containerMobile{
+        max-width:800px;
+        width:780px;
+    }
+    .exEchilibruImage {
+        width: 180px;
+        height: 260px;
+    }
+    .viataImage {
+        width: 180px;
+        height: 260px;
+    }
+
+    
+}
+@media screen and (max-width:600px){
+    .imageMobile{
+        width:330px;
+        height:560px;
+    }
+    .formular-container{
+        margin-left:0px;
+        width:540px;
+    }
+    .navbar{
+        position:relative;
+    }
+    .thumbnail:hover {
+        position:relative;
+        top:-25px;
+        right:-40px;
+        width:200px;
+        height:auto;
+        display:block;
+        z-index:999;
+        
+    }
+    .box-background{
+        margin-left:0px;
+        width:520px;
+    
+    }
+    .tuAiIubiImage{
+        width:600px;
+    }
+    
+}

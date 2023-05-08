@@ -1,0 +1,428 @@
+.navbar {
+  background-color: #D9D7F1;
+}
+
+footer {
+  background-color: #D9D7F1;
+}
+
+.carousel-size {
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-top: 20px;
+}
+
+.carousel-size1 {
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 60px;
+  position: fixed;
+}
+
+.footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  line-height: 50px;
+}
+
+.carouselBiblioteca {
+  background-color: snow;
+  margin-left: 0;
+  margin-right: 0;
+  position: fixed;
+}
+
+.carouselIndex {
+  background-color: #a6a6a6;
+}
+
+@font-face {
+  font-family: "IndieFlower";
+  src: url("Font/IndieFlower.woff2") format("woff2");
+}
+@font-face {
+  font-family: "indieFlower";
+  src: url("IndieFlower-Regular.ttf");
+}
+.fontTitlu {
+  font-family: "indieFlower";
+  font-size: 20px;
+}
+
+.font-DancingScript {
+  font-family: "Indie Flower", cursive;
+}
+
+.dreptunghi-container {
+  width: 100%;
+  height: 180px;
+  top: 85%;
+  left: 10%;
+  right: 17%;
+}
+
+.container-biblioteca {
+  top: 17%;
+  left: 25%;
+  right: 8%;
+  position: relative;
+}
+
+.container-list {
+  width: 100%;
+}
+
+.container-image {
+  top: 10%;
+  left: 200px;
+}
+
+.image {
+  left: 130px;
+  right: 130px;
+  height: 700px;
+  width: 600px;
+}
+
+.books_long_slider {
+  float: left;
+  display: block;
+  height: 157px;
+  width: 120px;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-right: 70px;
+  margin-left: 30px;
+}
+
+.books_long_slider_w {
+  background: url(Imagini_GrupDeLectura/shelf_bg.jpg);
+  padding: 20 px 55 px;
+  height: 623px;
+  margin-bottom: 40px;
+}
+
+.books_scroll {
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+}
+
+.container-bookshelf {
+  width: 950px;
+  margin: 50px auto;
+}
+
+.list-group {
+  background: none;
+  border: none;
+  margin-bottom: 50px;
+}
+
+.shelf {
+  height: 36px;
+  background: url(Imagini_GrupDeLectura/shelf_head_bg2.jpg) top left repeat;
+  background-image: url(Imagini_GrupDeLectura/shelf_head_bg2.jpg);
+}
+
+.thumbnail:hover {
+  position: relative;
+  top: -25px;
+  right: -50px;
+  width: 400px;
+  height: auto;
+  display: block;
+  z-index: 999;
+}
+
+.img:hover {
+  transform: scale(1.3);
+}
+
+.thumbnail2:hover {
+  position: relative;
+  top: -25px;
+  right: -35px;
+  width: 500px;
+  height: auto;
+  display: block;
+  z-index: 999;
+}
+
+.row-image {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 40px;
+  margin-right: 270px;
+  margin-left: 270px;
+}
+
+.column-image {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column-image img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column-image {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column-image {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.box-background {
+  background-color: lightgrey;
+  width: auto;
+  position: relative;
+  margin-right: 150px;
+  margin-left: 150px;
+  border: 5px solid lightgray;
+}
+
+.box-name {
+  width: 200px;
+  height: 40px;
+}
+
+.formular-container {
+  width: auto;
+  height: 500px;
+  position: relative;
+  margin-right: 120px;
+  margin-left: 150px;
+  border: 1px solid black;
+}
+
+.list {
+  position: relative;
+  display: block;
+  color: #212529;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.flex-card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  background-color: white;
+  margin: 30px;
+}
+
+#image-cardOne {
+  width: 100%;
+  height: 300px;
+  background-image: url(Imagini_Magazin/oaianeagra.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image-cardTwo {
+  width: 100%;
+  height: 300px;
+  background-image: url(Imagini_Magazin/ingrediente.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image-cardThree {
+  width: 100%;
+  height: 300px;
+  background-image: url(Imagini_Magazin/secrete.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image-cardFour {
+  width: 100%;
+  height: 300px;
+  background-image: url(Imagini_Magazin/cartea-familiei-parintele-vasile-ioana-bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image-cardFive {
+  width: 100%;
+  height: 300px;
+  background-image: url(Imagini_Magazin/despre-sensul-vietii-mihai-morar-parintele-necula-bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image-cardSeven {
+  width: 100%;
+  height: 300px;
+  background-image: url(Imagini_Magazin/ziua-in-care-m-am-iubit-cu-adevarat-bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image-cardEight {
+  width: 100%;
+  height: 300px;
+  background-image: url(Imagini_Magazin/mama-povesteste-mi-despre-tine-narcisa-suciu-bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image-cardNine {
+  width: 100%;
+  height: 300px;
+  background-image: url(Imagini_Magazin/jurnalul-unui-burlac-conversatii-cu-mama-bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image-cardTen {
+  width: 100%;
+  height: 300px;
+  background-image: url(Imagini_Magazin/intoarce-te-la-tine-cand-nu-mai-stii-cine-esti-bg1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image-cardEleven {
+  width: 100%;
+  height: 300px;
+  background-image: url(Imagini_Magazin/esti-un-om-frumos-invata-sa-te-iubesti-bg1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image-cardTwelve {
+  width: 100%;
+  height: 300px;
+  background-image: url(Imagini_Magazin/miracole-si-regasiri-dama-de-trefla-bg4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image-cardThirteen {
+  width: 100%;
+  height: 300px;
+  background-image: url(Imagini_Magazin/malakai-vol-1-vol-2-bg4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image-cardFourteen {
+  width: 100%;
+  height: 300px;
+  background-image: url(Imagini_Magazin/pachet-hazard-vol-12-bg4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image-cardFiveteen {
+  width: 100%;
+  height: 300px;
+  background-image: url(Imagini_Magazin/trilogia-dor-de-dor-de-tine-costantin-romulus-preda.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#image-cardSixteen {
+  width: 100%;
+  height: 300px;
+  background-image: url(Imagini_Magazin/pachet-alex-mihai-gulie-bg10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flex-card h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.flex-card button {
+  background-color: gray;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.flex-container {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  height: 500px;
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  align-items: center;
+  /* align-content: flex-start; */
+  /* align-content: flex-end;
+  */
+  /* align-content: center; */
+  align-content: space-between;
+  margin-top: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+@font-face {
+  font-family: Lobster;
+  src: url(Lobster-Regular.ttf);
+}
+.text {
+  margin-top: 100px;
+  font-family: Lobster;
+  font-size: 50px;
+}
+
+.text-two {
+  font-family: Lobster;
+  font-size: 50px;
+}
+
+.text-three {
+  font-family: Lobster;
+  font-size: 50px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.contact {
+  margin-left: 400px;
+  font-family: "Roboto";
+}/*# sourceMappingURL=proiect.css.map */

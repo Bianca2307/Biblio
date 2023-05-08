@@ -1,0 +1,24 @@
+.title{
+    text-align:center;
+    position:relative;
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding:0;
+
+}
+body{
+    margin:0;
+    padding:0;
+
+}
+.starts {
+    margin-bottom:20px;
+    text-align:center;
+}
+@font-face {
+    font-family: Work Sans;
+    src: url(WorkSans-Italic-VariableFont_wght.ttf);
+}
+.font_1{
+    font-family: 'Work Sans'
+}

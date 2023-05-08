@@ -1,0 +1,379 @@
+@media screen and (max-width: 1200px) {
+    header {
+        padding: 0 20px 50px;
+        height : auto;
+    }
+}
+
+header {
+    background: white;
+}
+
+body {
+    padding: 0;
+    margin : 0;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .back {
+        margin-top: 20px;
+    }
+}
+
+.back {
+    position       : absolute;
+    display        : inline-block;
+    padding        : 6px 12px;
+    background     : linear-gradient(to right top, #f8f3f6, #ffe4eb, #ffd7d2, #ffceae, #ffcc88, #ffc275, #ffb863, #ffad51, #ff9060, #ff727e, #ff5ba7, #fb5ad5);
+    color          : black;
+    text-decoration: none;
+    border-radius  : 0 50px 50px 0;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    gap            : 1rem;
+    margin-top     : 50px;
+    left           : 0;
+    z-index        : 100;
+}
+
+@media screen and (max-width: 1200px) {
+    .header_flex {
+        height : unset;
+        padding: 0;
+        width  : 100%;
+    }
+}
+
+.header_flex {
+    display        : flex;
+    color          : black;
+    align-items    : center;
+    justify-content: center;
+    max-width      : 1100px;
+    margin         : 0 auto;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .header_flex_carte {
+        margin-top: unset;
+        margin    : auto;
+        text-align: center;
+    }
+}
+
+.header_flex_carte {
+    padding-top : 50px;
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    .header_flex_carte img {
+        width : 90%;
+        height: unset;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .header_flex_text {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header_flex_text {
+        margin-left: unset;
+        text-align : center;
+    }
+}
+
+.header_flex_text {
+    text-align: center;
+    width     : 440px;
+    color     : black;
+}
+
+@media screen and (max-width: 1200px) {
+    .header_flex_text h2 {
+        font-size: 26px;
+    }
+}
+
+.header_flex_text h2 {
+    font-weight: 500;
+    font-size  : 36px;
+    color      : black;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Arima Madurai;
+    src        : url(ArimaMadurai-Black.ttf);
+}
+
+.font_4 {
+    font-family: Arima Madurai;
+}
+
+@font-face {
+    font-family: Work Sans;
+    src        : url(WorkSans-Italic-VariableFont_wght.ttf);
+}
+
+.font_2 {
+    font-family: 'Work Sans';
+}
+
+@media screen and (max-width: 1200px) {
+    .header_flex_text p {
+        font-size: 18px;
+    }
+}
+
+.header_flex_text p {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .header_flex_text_cta {
+        text-align: center;
+        width     : 100%;
+    }
+}
+
+.header_flex_text_cta {
+    width     : 280px;
+    margin    : 40px auto 0;
+    text-align: center;
+    color     : black;
+}
+
+.header_flex_text_cta_pret {
+    font-size  : 26px;
+    font-weight: bold;
+    margin-top : 32px;
+    color      : black;
+}
+
+.header_flex_text_cta_buton_a {
+    background     : linear-gradient(to right top, #f8f3f6, #ffe4eb, #ffd7d2, #ffceae, #ffcc88, #ffc275, #ffb863, #ffad51, #ff9060, #ff727e, #ff5ba7, #fb5ad5);
+    color          : black;
+    padding        : 15px 30px;
+    display        : inline-block;
+    text-decoration: none;
+    border-radius  : 500px;
+    text-transform : uppercase;
+    font-size      : 24px;
+    font-weight    : bold;
+    margin-top     : 10px;
+}
+
+.descriere {
+    padding   : 100px 20px;
+    background: linear-gradient(to right top, #f8f3f6, #ffe4eb, #ffd7d2, #ffceae, #ffcc88, #ffc275, #ffb863, #ffad51, #ff9060, #ff727e, #ff5ba7, #fb5ad5);
+
+
+}
+
+.descriere h2 {
+    font-size  : 40px;
+    font-weight: 900;
+    color      : black;
+    text-align : center;
+}
+
+@media screen and (max-width: 1200px) {
+    .volum-container {
+        width: 100%;
+    }
+}
+
+.volum-container {
+    display    : flex;
+    width      : 1200px;
+    margin     : 0 auto;
+    text-align : center;
+    align-items: center;
+}
+
+
+.descriere-container h3 {
+    font-size    : 30px;
+    color        : black;
+    text-align   : left;
+    padding-left : 30px;
+    font-weight  : bold;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .descriere_text {
+        width     : 95%;
+        height    : 300px;
+        overflow-y: scroll;
+    }
+}
+
+.descriere_text {
+    margin      : auto;
+    font-size   : 18px;
+    color       : black;
+    text-align  : left;
+    padding-left: 30px;
+}
+
+.volum-container2 {
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 900px) {
+    .fragment {
+        padding: 10px 20px;
+    }
+}
+
+.fragment {
+    padding   : 60px 20px;
+    background: linear-gradient(to bottom, #f6efef, #eee7e7, #e5dfe0, #ddd7d8, #d4cfd1);
+    text-align: center;
+}
+
+.fragment h2 {
+    font-size  : 50px;
+    font-weight: bold;
+    color      : black;
+    text-align : center;
+}
+
+.fragment h3 {
+    font-size  : 50px;
+    font-weight: bold;
+    color      : black;
+    text-align : left;
+}
+
+@media screen and (max-width: 900px) {
+    .fragment-container {
+        width     : 95%;
+        height    : 350px;
+        overflow-y: scroll;
+    }
+}
+
+.fragment-container {
+    width : 900px;
+    margin: 0 auto;
+    color : black;
+}
+
+.fragment-container p {
+    margin    : auto;
+    font-size : 20px;
+    padding   : 10px 0;
+    text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+    .despre_autoare {
+        padding: 10px 20px 30px;
+    }
+}
+
+.despre_autoare {
+    background-color: white;
+    padding         : 10px 0 50px;
+}
+
+@media screen and (max-width: 900px) {
+    .autoare-container {
+        width: 100%;
+    }
+}
+
+.autoare-container {
+    width     : 900px;
+    margin    : auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .autoare-container h2 {
+        margin-bottom : 20px;
+        font-size     : 30px;
+        padding-bottom: 0;
+    }
+}
+
+.autoare-container h2 {
+    text-align : center;
+    color      : black;
+    font-size  : 50px;
+    font-weight: bold;
+    margin-top : 0;
+}
+
+.despre_autoare_text {
+    line-height: 24px;
+    color      : black;
+    text-align : left;
+    margin     : auto;
+    font-size  : 20px;
+}
+@media screen  and (max-width:768px){
+    .carteDescriere {
+        width:400px;
+        margin-left:-20px;
+    }
+    .descriere_text p {
+        margin-left: -27px;
+        width:353px;
+    }
+    .carteDescriere2 {
+        width:400px;
+    }
+    .carteDescriere3{
+        width:400px;
+        margin-left:-10px;
+    }
+    .fragment-container {
+        width: 739px;
+    }
+    .autoare-container {
+        width: 700px;
+        margin: auto;
+        text-align: center;
+    }
+}
+@media screen and (max-width:600px){
+    .carteDescriere {
+        width:300px;
+        height:400px;
+        margin-left:-20px;
+    }
+    .descriere_text p {
+        margin-left: -27px;
+        width:250px;
+    }
+    .carteDescriere2 {
+        width:300px;
+        height:400px;
+    }
+    .carteDescriere3{
+        width:300px;
+        height:400px;
+    }
+    .fragment-container {
+        width: 500px;
+    }
+    .autoare-container {
+        width: 500px;
+        margin: auto;
+        text-align: center;
+    }
+    .despreAutor {
+        width:500px;
+    }
+}

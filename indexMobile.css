@@ -1,0 +1,31 @@
+@media screen and (max-width:768px){
+    .containerMobile{
+        max-width:900px;
+        width:900px;
+        margin-right:50px;
+    }
+    .thumbnail2:hover{
+        position:relative;
+        top:-15px;
+        right:-10px;
+        width:300px;
+        height:auto;
+        display:block;
+        z-index:999;
+    }
+    .navbar{
+        position:relative;
+    }
+}
+@media screen and (max-width:600px){
+    .containerMobile{
+        max-width:800px;
+        width:750px;
+        float:start;
+
+    }
+    .imageMobile{
+        display:none;
+    }
+   
+}

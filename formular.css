@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Roboto;
+    src        : url(Roboto-Thin.ttf);
+}
+.formular {
+    width:auto;
+    height:860px;
+    position:relative;
+    margin-right:120px;
+    margin-left:150px;
+    border: 1px solid black;
+    
+}

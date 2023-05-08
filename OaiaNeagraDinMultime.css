@@ -1,0 +1,241 @@
+header {
+    background-image: url(Imagini_Magazin/bg-header-oaiaNeagra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    display:block;
+}
+body {
+    padding:0;
+    margin:0;
+}
+.back {
+    position: absolute;
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #fcdec5;
+    color: black;
+    text-decoration: none;
+    border-radius: 0 50px 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 50px;
+    left: 0;
+    z-index: 100;
+}
+.header-flex {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.header-flex-carte {
+    padding-top: 50px;
+    margin-right: 35px;
+}
+@font-face {
+    font-family: Cinzel;
+    src: url(Cinzel-VariableFont_wght.ttf);
+}
+.font_1 {
+    font-family: 'Cinzel';
+}
+.hearder-flex-text {
+    text-align: center;
+    margin-left: 30px;
+    color: white;
+}
+.header_flex_text_cta_pret {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 32px;
+    color: #fcdec5;
+    margin-left:70px;
+}
+@font-face {
+    font-family: Work Sans;
+    src: url(WorkSans-Italic-VariableFont_wght.ttf);
+}
+.font_2 {
+    font-family: 'Work Sans'
+}
+.header_flex_text_cta_button_a {
+    background: linear-gradient(
+        135deg , rgba(230,186,145,1) 0%,rgba(255,227,203,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ba91', endColorstr='#ffe3cb',GradientType=1 );
+            color: black;
+            padding: 15px 20px;
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 500px;
+            text-transform: uppercase;
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 10px;
+}
+.review-evidentiat {
+    background-image: url(Imagini_Magazin/bg-oaiaNeagra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 80px 20px;
+}
+.review-container {
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+}
+.review-text {
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center;
+    color: black;
+}
+.review-autor-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.review-autor {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding-left: 30px;
+}
+.review-artista {
+    padding-left: 30px;
+    font-size: 20px;
+    margin: 5px 0;
+}
+.ajuta {
+    padding: 80px 20px;
+     background-color: black;
+     text-align: center;
+}
+.ajuta-titlu {
+    color: #f0c9a7;
+    font-size: 40px;
+    margin: auto;
+    font-weight: normal;
+    width: 800px;
+}
+.ajuta-lista {
+    margin: 10px;
+    padding-top: 20px;
+    display: flex;
+    text-align: left;
+}
+.ajuta-text {
+    width: 750px;
+        margin: 40px auto;
+        color: white;
+        font-size: 25px;
+}
+.ajuta-lista p{
+    margin: unset;
+    padding: 0 0 10px 20px;
+}
+.trailer {
+    padding: 60px 20px 30px;
+    background-color: #ffefe0;
+    text-align: center
+}
+.trailer-title {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: normal;
+}
+.border {
+    width: fit-content;
+    padding: 15px;
+    border: 6px dashed rgba(0, 0, 0, 0.158);
+    outline: 4px dotted rgba(0, 0, 0, 0.103);
+    outline-offset: 15px;
+    margin: auto;
+}
+.descriere {
+    padding: 10px 20px;
+    background-color: black;
+}
+.volum-container {
+    display:flex;
+     margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+.descriere_text {
+    margin: auto;
+    line-height: 24px;
+    font-size: 18px;
+    color:white;
+    text-align:left;
+    margin-left:30px;
+    width: 620px;
+}
+.descriere_text h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #f0c9a7;
+    text-align: left;
+}
+.despre_autoare {
+    background-color: black;
+    padding: 90px 20px; 
+}
+.despre-autor-container {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+.despre_autoare_text {
+    width: 700px;
+    line-height: 26px;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    margin: auto;
+    font-size: 18px;
+}
+.img-autor{
+    margin-left:400px;
+}
+@media screen and (max-width:768px){
+    .imageDescriere {
+        width:400px;
+    }
+    .despre_autoare_text {
+        margin:0px;
+    }
+    .img-autor {
+        margin-left: 35px;
+    }
+}
+@media screen and (max-width:600px){
+    .imageHeader {
+        width:400px;
+    }
+    .ajuta-titlu {
+        width:578px;
+    }
+    .ajuta-lista{
+        margin:0px;
+    }
+    .imageDescriere {
+        display:none;
+    }
+    .despre_autoare_text p {
+        width:450px;
+    }
+    
+}
+
